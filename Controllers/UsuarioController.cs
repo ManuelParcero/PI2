@@ -51,7 +51,7 @@ namespace SBMfotos.Controllers
             UsuarioService emprestimoService = new UsuarioService();
             return View(emprestimoService.ListarTodos(objFiltro));
         }
-         public IActionResult Listagem(string tipoFiltro, string filtro)
+         public IActionResult ListarTodos(string tipoFiltro, string filtro)
         {
             FiltrosUsuario objFiltro = null;
             if(!string.IsNullOrEmpty(filtro))

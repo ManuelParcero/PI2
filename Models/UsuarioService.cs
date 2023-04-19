@@ -2,6 +2,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Collections;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace SBMfotos.Models
 {
@@ -47,6 +48,11 @@ namespace SBMfotos.Models
                 bc.Usuario.Add(u);
                 bc.SaveChanges();
             }
+        }
+
+        internal Usuario ListarTodos()
+        {
+            throw new NotImplementedException();
         }
     }
 }

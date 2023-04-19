@@ -16311,13 +16311,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/manuel/Área de Trabalho/Temporario/1. Tecnico em informatica para a internet/2. Modulo 2/Projeto novo/SBMfotos/Views/Usuario/Edicao.cshtml",
+      "TargetPath": "Views\\Usuario\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/manuel/Área de Trabalho/Temporario/1. Tecnico em informatica para a internet/2. Modulo 2/Projeto novo/SBMfotos/Views/Home/Info_FAQ.cshtml",
       "TargetPath": "Views\\Home\\Info_FAQ.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/manuel/Área de Trabalho/Temporario/1. Tecnico em informatica para a internet/2. Modulo 2/Projeto novo/SBMfotos/Views/Usuario/Listagem.cshtml",
+      "TargetPath": "Views\\Usuario\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/manuel/Área de Trabalho/Temporario/1. Tecnico em informatica para a internet/2. Modulo 2/Projeto novo/SBMfotos/Views/Home/Contato.cshtml",
       "TargetPath": "Views\\Home\\Contato.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/manuel/Área de Trabalho/Temporario/1. Tecnico em informatica para a internet/2. Modulo 2/Projeto novo/SBMfotos/Views/Usuario/Cadastro.cshtml",
+      "TargetPath": "Views\\Usuario\\Cadastro.cshtml",
       "FileKind": "mvc"
     },
     {
