@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - SBMfotos</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+
+    </head>
+    <body >
+        <header>
+            
+            <div class="topnav">         
+                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Login">Log-in</a>
+                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="cadastro_no_site">Cadastro</a>
+                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="carrinho">Carrinho</a>
+            </div>
+            
+        </header>
+   
+        <div class="col-sm-12" style="width: auto;"> 
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="~/img/perfil.jpeg"> 
+                    <h3>Shannon Martin</h3>
+                    <p>Fotógrafa</p>
+                </div>
+                <ul>
+                    <li>
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">
+                            <span class="icon"><i class="fas fa-home"></i></span>
+                            <span class="item">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Info_sobre">
+                        
+                            <span class="icon"><i class="fas fa-desktop"></i></span>
+                            <span class="item">Sobre</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link " asp-area="" asp-controller="Produto" asp-action="Fotos_digitais">
+                            <span class="icon"><i class="fas fa-user-friends"></i></span>
+                            <span class="item">Fotos Digitais</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link " asp-area="" asp-controller="Produto" asp-action="Impressoes">
+                            <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                            <span class="item">Impressões</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link " asp-area="" asp-controller="Produto" asp-action="Cartoes_Postais">
+                            <span class="icon"><i class="fas fa-database"></i></span>
+                            <span class="item">Cartões postais</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link " asp-area="" asp-controller="Produto" asp-action="Quebra_cabecas">
+                            <span class="icon"><i class="fas fa-chart-line"></i></span>
+                            <span class="item">Quebra-cabeças</span>
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="info_Termos_e_condições_da_loja_online">
+                            <span class="icon"><i class="fas fa-user-shield"></i></span>
+                            <span class="item">Termos e Condições</span>
+                        </a>
+                    </li>                
+                    <li>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Info_FAQ">
+                            <span class="icon"><i class="fas fa-cog"></i></span>
+                            <span class="item">FAQ</span>
+                        </a>
+                    </li>
+                         <li>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contato">
+                            <span class="icon"><i class="fas fa-cog"></i></span>
+                            <span class="item">Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>                  
+                          
+        <main role="main" class="pb-3" >
+           
+            @RenderBody()
+        </main>
+       
+
+                               
+        <footer class="border-top footer text-white">
+            <div class="cp">&copy; Copyright MPO 2023. Todos os direitos reservados</div>
+                       
+        </footer>
+        
+        
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @RenderSection("Scripts", required: false)
+    </body>
+</html>

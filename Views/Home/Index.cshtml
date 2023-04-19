@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner .item  img,
+  .carousel-inner .item  a  img {
+  width: 1300px;
+	height: 700px;
+  width: 100%;"
+    
+  }
+  </style>
+</head>
+<body>
+
+
+
+
+<div class="container">
+  
+  <h2>Bem vindo do site do quiosque SBM fotos!</h2>
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="~/img/impressao1.jpg" alt="paisagem" width="460" height="345" style="width: 100%;">
+        <div class="carousel-caption">
+          <h3>Fotos de paisagens</h3>
+          <p>Praia de Boa Viagem</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="~/img/inseto1.png" alt="inseto" width="460" height="345" style="width: 100%;">
+        <div class="carousel-caption">
+          <h3>Fotos de insetos</h3>
+          <p>Grande besouro da mata atlântica</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="~/img/Passaro1.png" alt="pássaro" width="460" height="345" style="width: 100%;">
+        <div class="carousel-caption">
+          <h3>Fotos de Pássaros</h3>
+          <p>Pássaros da mata atlântica</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="~/img/quebra2.jpeg" alt="quebra-cabeça" width="460" height="345" style="width: 100%;">
+        <div class="carousel-caption">
+          <h3>Quebra-Cabeça</h3>
+          <p>Temos quebracabeça das nossas fotos</p>
+        </div>
+      </div>
+  
+    </div>
+
+    
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+</div>
+
+</body>

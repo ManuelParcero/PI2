@@ -1,0 +1,145 @@
+@{
+    ViewData["Title"] = "Quebra-Cabeças";
+}
+
+<div class="container-fluid">
+<div class="linhacards">  
+  <h2>Quebra-cabeças disponíveis hoje:</h2> 
+  <br>
+    <div class="row">
+      
+        <div class="col-sm-12 col-md-3">                   
+            <div class="card" style="width: 16rem;">
+                <img src="~/img/quebra1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Quebra-cabeça bicicleta</h5>
+                    <p class="card-text"></p>
+                    <p>R$ 20,90</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+                            Ver</button>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>    
+        </div>
+
+        <div class="col-sm-12 col-md-3">                       
+            <div class="card" style="width: 16rem;">
+                <img src="~/img/quebra2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Quebra-cabeça deserto</h5>
+                    <p class="card-text"></p>
+                    <p>R$ 20,90</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+                        Ver
+                        </button>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>    
+        </div>
+                    
+        <div class="col-sm-12 col-md-3">                       
+            <div class="card" style="width: 16rem;">
+                <img src="~/img/quebra3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Quebra-cabeça alfazema</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p>R$ 20,90</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal2">
+                        Ver 
+                        </button>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>    
+        </div>                 
+
+    </div>        
+</div>
+
+</div>
+
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vizualização</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body"> 
+
+
+      
+          <img src="~/img/quebra1.jpg" alt="img1" background = "blue" style="width: 100%;>
+      
+      
+      
+      </div>
+       <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+       
+      </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vizualização</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        
+        
+        
+        <img src="~/img/quebra2.jpeg" alt="img1" background = "blue" style="width: 100%;>
+        
+      
+      
+      
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vizualização</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+            
+            
+            
+            
+            
+            <img src="~/img/quebra3.jpeg" alt="img1" background = "blue" style="width: 100%;>
+
+
+
+        
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
